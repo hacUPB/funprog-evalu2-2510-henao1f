@@ -67,3 +67,23 @@ https://www.profesionalreview.com/2021/07/18/risc-vs-cisc/#Que_es_CISC
 
 ![imagen2](./imagenes/RISC.jpg)
 
+3-¿Qué es el hardware? 
+
+El hardware son los componentes físicos de un ordenador, como la placa base, el procesador, la memoria, las unidades de almacenamiento y otros dispositivos. Es el hardware que aloja y soporta el software o los programas que proporcionan instrucciones para que el ordenador complete sus tareas. El hardware también puede incluir dispositivos externos de entrada/salida como teclados, ratones, monitores, impresoras y altavoces.
+
+El hardware existe desde la invención de los ordenadores. Los primeros componentes de hardware estaban hechos de piezas mecánicas básicas e interruptores, como la Máquina Diferencial de Charles Babbage en 1822. A mediados del siglo XX, el hardware se basaba principalmente en la tecnología de tubos de vacío, que acabó dando paso a los transistores a finales de los años 50 y principios de los 60. Hoy en día, el hardware se utiliza ampliamente en todo tipo de sistemas y dispositivos informáticos, desde ordenadores de sobremesa y portátiles hasta smartphones y smartwatches.
+
+Placa base: Es la placa de circuito principal que aloja y conecta todos los componentes de un ordenador, tales como el procesador, la memoria, las unidades de almacenamiento y otros dispositivos.
+
+Procesador: El componente de hardware que procesa los datos y ejecuta las instrucciones. Puede incluir múltiples núcleos, que son componentes de hardware específicamente diseñados para ejecutar varios programas de software simultáneamente.
+
+Memoria: Hardware que almacena datos temporalmente para su uso por el procesador. Puede incluir tanto memoria de acceso aleatorio (RAM), que se utiliza para tareas a corto plazo, como memoria de sólo lectura (ROM).
+
+Unidades de almacenamiento: Dispositivos de hardware que almacenan datos de forma permanente, como discos duros, unidades de estado sólido (SSD) y discos ópticos. Cada componente de hardware desempeña un papel vital en los sistemas de hardware de los ordenadores modernos, permitiéndoles realizar sus diversas tareas de forma eficiente y eficaz.
+
+Impresoras: dispositivos de hardware que permiten a los usuarios producir copias físicas de documentos, fotografías y otros tipos de soportes.
+
+https://www.arimetrics.com/glosario-digital/hardware
+
+![hard](./imagenes/hardware.jpg)
+
