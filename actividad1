@@ -1,4 +1,4 @@
-¿Qué es un computador?
+1-¿Qué es un computador?
 Un computador es una máquina electrónica que está diseñada para realizar tareas específicas. En muchos países se le conoce como computadora u ordenador, pero todas estas palabras se refieren a lo mismo.
 
 Con esta máquina se pueden desarrollar tareas que ahora hacen parte de nuestra vida cotidiana, como elaborar cartas o una hoja de vida, hablar con personas de otros países, hacer presupuestos, jugar y hasta navegar en internet.
@@ -9,4 +9,61 @@ https://edu.gcfglobal.org/es/informatica-basica/que-es-un-computador/1/
 
 ![compa](./imagenes/computador.jpg)
 
+2-Lo que sucede en CISC es que se reduce la cantidad de instrucciones de un software y se ignora el número de ciclos por instrucción. Se especializa en crear instrucciones complejas en el hardware, ya que el hardware siempre será mucho más rápido que el software.
+
+Este tipo de diseño es la base de los procesadores de Intel y de AMD, sin importar la gama o la estructura interna. Cualquiera de los procesadores producidos por ambas compañías se basan en la arquitectura CISC.
+
+Características de los procesadores CISC
+
+El tamaño del código es pequeño, lo que implica una baja necesidad de memoria RAM
+Las instrucciones complejas suelen necesitar más de un ciclo de reloj para ejecutar el código
+Se requieren menos instrucciones para escribir un software
+Ofrece programación más sencilla en lenguaje ensamblador
+Soporte para una estructura de datos compleja y fácil de compilar en lenguajes de alto nivel
+Compuesto por menos registros y más nodos de direccionamiento, habitualmente entre 5 y 20
+Instrucciones pueden ser más grandes que una sola palabra
+Se enfatiza la construcción de instrucciones en el hardware, ya que es más rápido que crear el software
+
+Ventajas de los procesadores CISC
+
+Para el compilador se requiere de poco esfuerzo para traducir programas de alto nivel o lenguajes de instrucciones a lenguaje ensamblador o máquina
+El tamaño del código es corto, reduciendo los requisitos de memoria
+Almacenar las instrucciones CISC requieren de menos cantidad de memoria RAM
+Genera procesos de administración de uso de energía que permiten ajustar la velocidad y el voltaje del reloj
+Requiere de menos instrucciones configuradas para realizar la misma instrucción que la arquitectura RISC
+Desventajas de los procesadores CISC
+Pueden requerir de varios ciclos de reloj para completar una instrucción de un software
+El rendimiento del equipo sufre un descenso debido a la velocidad del reloj
+La ejecución mediante canalización en procesadores CISC puede ser realmente complicado
+Este diseño de procesadores requiere muchos más transistores que la arquitectura RISC
+Utilizan sobre el 20% de las instrucciones existentes en un evento de programación
+Tienen un diseño mucho mayor que la arquitectura RISC, lo cual conlleva más generación de temperatura, mayor consumo y mayor requisito de espacio físico
+
+-La arquitectura RISC tiene la capacidad de por cada ciclo de instrucción se da solo un ciclo de reloj. Cada ciclo debe contener estos tres parámetros: buscar, decodificar y ejecutar. RISC también tiene la propiedad de ejecutar varias instrucciones complejas cuando se combinan con otras más simples. Este diseño de procesadores requiere menor cantidad de transistores, reduciendo costes y tiempos de fabricación.
+
+Todos los procesadores basados en los diseños de ARM, como por ejemplo los Qualcomm Snapdragon y los Samsung Exynos se basan en la arquitectura RISC. Incluso los procesadores integrados en las Raspberry Pi son de arquitectura RISC, al basarse en procesadores Broadcom que hace uso de licencias ARM.
+
+Características de RISC
+
+Para ejecutar una instrucción en estos procesadores, en un procesador de este tipo se requiere un ciclo de reloj. Cada ciclo de reloj incluye un método de obtención, decodificación y ejecución de la instrucción
+La técnica de canalización se usa en esta arquitectura para ejecutar múltiples partes o etapas de instrucciones para obtener un funcionamiento más eficiente
+Estos procesadores están optimizados basándose en múltiples registros que se pueden usar para el almacenamiento de instrucciones y la respuesta rápida del procesador y se minimicen las interacciones con la memoria del sistema
+Soporta un modo de direccionamiento simple y que tiene una longitud de instrucción fija para la ejecución de la canalización
+Usan instrucciones LOAD y STORE para acceder a la memoria
+Las instrucciones simples y limitadas permiten reducir los tiempos de ejecución de un proceso
+
+Ventajas de los procesadores RISC
+
+Tienen la capacidad de ofrecer un mejor rendimiento gracias al menor número de instrucciones y la simplicidad de las mismas
+Requieren de menos transistores, lo cual los hace más económicos de diseñar y producir
+Permiten crear procesadores con «espacio» libre para añadir otros circuitos o reducir sencillamente el encapsulado
+Este diseño requiere de menos consumo de energía y generan menos calor que los procesadores RISC
+Desventajas de los procesadores RISC
+El rendimiento del procesador puede variar dependiendo del código que se ejecuta, ya que las instrucciones posteriores que se ejecuten pueden depender de una instrucción anterior
+Actualmente la mayoría de software y compiladores hacen uso de instrucciones complejas
+Necesitan de memorias muy rápidas para almacenar diferentes cantidades de instrucciones, que requieren de una gran cantidad de memoria caché para responder a la instrucción en el menor tiempo posible
+
+https://www.profesionalreview.com/2021/07/18/risc-vs-cisc/#Que_es_CISC
+
+![imagen2](./imagenes/RISC.jpg)
 
