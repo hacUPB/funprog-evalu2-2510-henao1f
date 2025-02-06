@@ -7,7 +7,7 @@ Nuestro computador hace esto, procesando datos para convertirlos en información
 
 https://edu.gcfglobal.org/es/informatica-basica/que-es-un-computador/1/
 
-![compa](./imagenes/computador.jpg)
+![compa](./imágenes/computador.jpg)
 
 2-Lo que sucede en CISC es que se reduce la cantidad de instrucciones de un software y se ignora el número de ciclos por instrucción. Se especializa en crear instrucciones complejas en el hardware, ya que el hardware siempre será mucho más rápido que el software.
 
@@ -65,7 +65,7 @@ Necesitan de memorias muy rápidas para almacenar diferentes cantidades de instr
 
 https://www.profesionalreview.com/2021/07/18/risc-vs-cisc/#Que_es_CISC
 
-![imagen2](./imagenes/RISC.jpg)
+![imagen2](./imágenes/RISC.jpg)
 
 3-¿Qué es el hardware? 
 
@@ -85,7 +85,7 @@ Impresoras: dispositivos de hardware que permiten a los usuarios producir copias
 
 https://www.arimetrics.com/glosario-digital/hardware
 
-![hard](./imagenes/hardware.jpg)
+![hard](./imágenes/hardware.jpg)
 
 4.¿Qué es un software?
 
@@ -102,7 +102,7 @@ Softwares de programación: Programas diseñados como herramientas que le permit
 Softwares de aplicación: Programas diseñados para realizar una o más tareas específicas a la vez, pueden ser automáticos o asistidos. Por ejemplo: videojuegos o reproductores multimedia.
 
 https://concepto.de/software/
-![software](./imagenes/software.jpg)
+![software](./imágenes/software.jpg)
 
 5-funcionamiento del computador
 
@@ -163,7 +163,7 @@ utilizados y almacenados por la PC.
 A esta representación uniforme o formato
 universal se le llama PATRÓN DE BITS.
 https://www.uv.mx/personal/llopez/files/2011/09/Herencia-de-Ciencias.pdf
-![bit](./imagenes/bit.jpg)
+![bit](./imágenes/bit.jpg)
 
 ¿Cuáles son las unidades de medida de datos en un computador?
 
@@ -198,6 +198,6 @@ Es igual a 1024 Megabytes. Es la unidad de medida que se suele usar para determi
 Terabyte (TB):
 Lo componen 1024 Gigabytes. Muchas veces esta medida determina la capacidad de almacenamiento de los discos duros. ¡Imagina la cantidad de archivos que podrías guardar!
 https://edu.gcfglobal.org/es/cultura-tecnologica/medidas-de-almacenamiento-de-informacion/1/
-![bits](./imagenes/bits.jpg)
+![bits](./imágenes/bits.jpg)
 
 
