@@ -52,3 +52,34 @@ fin si
 escribir "el valor total es: ", costo
 fin
 ```
+
+1. muestre en pantalla los números del 10 al -10
+inicio
+ a= 10
+hacer
+   escribir a
+   a = a - 1
+   mientras a > -11
+fin
+
+
+2.serie de fibonacci
+0 1 1 2 3 5 8 13 21 34 55....
+imprimir N números de la serie
+N->lo pedimos al usuario
+
+inicio
+leer N
+   a = 0
+   b = 1
+imprimir a, b
+hacer
+   c = a + b
+imprimir c
+ a = b
+ b = c
+ N = N - 1
+mientras N > 0
+fin
+
+
