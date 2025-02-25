@@ -1,0 +1,103 @@
+RETOS
+
+# Instrucciones
+
+🔍 Para cada ejercicio, realice un análisis detallado y registre sus conclusiones en una tabla donde clasifique las variables de entrada, salida y las constantes. Enuncie las ecuaciones involucradas y explique el enfoque analítico que utilizará para plantear la solución.
+
+1. Se requiere obtener la distancia entre dos puntos en el plano cartesiano,
+tal y como se muestra en la figura 1. Realice un diagrama de flujo y pseudocódigo
+que representen el algoritmo para obtener la distancia entre
+esos puntos.
+
+R/= pseudocodigo:
+inicio
+   Escribir "Ingresa los datos deseados para X1
+	definir X1 Como Entero
+	Definir X2 Como Entero
+	Definir Y1 Como Entero
+	Definir Y2 Como Entero
+	Leer X1
+	Escribir "Ingresa el dato deseado para X2
+	Leer X2
+	Escribir "Ingresa el dato deseado para Y1
+	Leer Y1
+	Escribir "Ingresa el dato deseado para Y2
+	Leer Y2
+	
+	diferencia_x = X2 - X1
+    diferencia_y = Y2 - Y1
+	
+    D = sqrt(diferencia_x^2 + diferencia_y^2)
+	
+    Escribir "La distancia entre los dos puntos es:, D
+
+2. Una modista, para realizar sus prendas de vestir, encarga las telas al extranjero.
+Para cada pedido, tiene que proporcionar las medidas de la tela
+en pulgadas, pero ella generalmente las tiene en metros. Realice un algoritmo
+para ayudar a resolver el problema, determinando cuántas pulgadas
+debe pedir con base en los metros que requiere. Represéntelo mediante un
+diagrama de flujo y pseudocódigo (1 pulgada = 0.0254 m).
+
+R/= Pseudocodigo: 
+
+Algoritmo pulgadas
+	Escribir "ingrese la cantidad de tela en metros"
+	Leer metros
+	pulgadas <- metros / 0.0254
+	Escribir "debe pedir", pulgadas, "pulgadas de tela"
+FinAlgoritmo
+
+     
+3. Se requiere determinar la hipotenusa de un triángulo rectángulo. ¿Cómo sería el diagrama de flujo y el pseudocódigo que representen el algoritmo para obtenerla? 
+Recuerde que por Pitágoras se tiene que: C^2 = A^2 + B^2.
+
+R/= Pseudocodigo:
+
+Algoritmo TrianguloRectangulo
+	Escribir "ingrese el valor del cateto A"
+	Leer A
+	Escribir "ingrese el valor del cateto B"
+	leer B
+	C <- Rc(A^2+B^2)
+	Escribir "la hipotenusa es" C
+FinAlgoritmo
+
+
+4. Se requiere determinar la edad actual de una persona basándose en su fecha de nacimiento. Además, es necesario establecer si la persona ya ha cumplido años en el año en curso, si aún no lo ha hecho, o si hoy es su cumpleaños, para celebrarlo. La fecha de nacimiento y la fecha actual estarán representadas mediante tres variables: día, mes y año.
+
+R/= Pseudocodigo:
+
+Algoritmo EdadActual
+		ESCRIBIR "Ingrese el día de nacimiento"
+		LEER diaNac
+		ESCRIBIR "Ingrese el mes de nacimiento"
+		LEER mesNac
+		ESCRIBIR "Ingrese el año de nacimiento"
+		LEER añoNac
+		ESCRIBIR "Ingrese el día actual"
+		LEER diaAct
+		ESCRIBIR "Ingrese el mes actual"
+		LEER mesAct
+		ESCRIBIR "Ingrese el año actual"
+		LEER añoAct
+		edad <- añoAct - añoNac
+
+		SI (mesAct < mesNac) O (mesAct = mesNac Y diaAct < diaNac) ENTONCES
+			edad <- edad - 1
+			ESCRIBIR "Aún no ha cumplido años este año."
+		SiNo
+			ESCRIBIR "Ya cumplió años este año."
+		FIN SI
+		SI (mesAct = mesNac Y diaAct = diaNac) ENTONCES
+			ESCRIBIR "Feliz Cumpleaños!"
+		FinSi
+		Imprimir "edad actual" edad
+FinAlgoritmo
+
+
+5. Realice un algoritmo que permita determinar el sueldo semanal de un trabajador con base en las horas trabajadas y el pago por hora, considerando que a partir de la hora número 41 y hasta la 45, cada hora se le paga el doble, de la hora 46 a la 50, el triple, y que trabajar
+más de 50 horas no está permitido. Represente el algoritmo mediante pseudocódigo.
+
+R/= Pseudocodigo:
+
+

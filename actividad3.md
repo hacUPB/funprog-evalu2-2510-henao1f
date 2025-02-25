@@ -83,3 +83,21 @@ mientras N > 0
 fin
 
 
+### Parte 1: Identificar Algoritmos
+
+Responde si los siguientes enunciados representan un algoritmo. Justifica la respuesta:
+
+1. Una página web.
+2. Una receta para hacer un pastel, donde se indican ingredientes y pasos a seguir.
+3. "Piensa en un número y multiplícalo por otro".
+4. Un manual de instrucciones para armar un mueble, con pasos detallados y un orden claro.
+5. Una lista de compras organizada en orden alfabético
+
+RESPUESTA
+
+1. no, porque esta es como mas libre, no tiene como un orden de pasos para ir de una parte a otra
+
+2. si, ya que este tiene un orden y unos pasos que seguir
+
+3. 
+
