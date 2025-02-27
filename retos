@@ -100,4 +100,82 @@ más de 50 horas no está permitido. Represente el algoritmo mediante pseudocód
 
 R/= Pseudocodigo:
 
+Algoritmo SueldoSemanal
+	Escribir "Ingrese las horas trabajadas en la semana:"
+    Leer horasTrabajadas
+    Escribir "Ingrese el pago por hora:"
+    Leer pagoPorHora
+    Si horasTrabajadas > 50 Entonces
+        Escribir "No está permitido trabajar más de 50 horas."
+    Sino
+        sueldo <- 0
+	FinSi
+        Si horasTrabajadas <= 40 Entonces
+            sueldo <- horasTrabajadas * pagoPorHora
+        Sino Si horasTrabajadas <= 45 Entonces
+				sueldo <- (40 * pagoPorHora) + ((horasTrabajadas - 40) * (pagoPorHora * 2))
+			Sino Si horasTrabajadas <= 50 Entonces
+					sueldo <- (40 * pagoPorHora) + (5 * (pagoPorHora * 2)) + ((horasTrabajadas - 45) * (pagoPorHora * 3))
+				FinSi
+				Escribir "El sueldo semanal es: ", sueldo
+			FinSi
+		FinSi
+FinAlgoritmo
+
+
+6. Se requiere un algoritmo para determinar, de N cantidades, cuántas son cero, cuántas son menores a cero, y cuántas son mayores a cero.
+Realice el pseudocódigo para representarlo, utilizando el ciclo apropiado.
+
+R/= Pseudocodigo:
+
+Algoritmo Cantidades
+    Escribir "Ingrese la cantidad de números a evaluar (N):"
+    Leer N
+    ContadorCeros <- 0
+	ContadorPositivos <- 0
+	ContadorNegativos <- 0
+	Para i <- 1 Hasta N Hacer
+        Escribir "Ingrese un número:"
+        Leer numero
+        Si numero = 0 Entonces
+            ContadorCeros <- ContadorCeros + 1
+        Sino Si numero > 0 Entonces
+				ContadorCerosPositivos <- ContadorCerosPositivos + 1
+			Sino
+				ContadorCerosNegativos <- ContadorCerosNegativos + 1
+				FIN SI
+		FinSi
+	FinPara
+		Escribir "Cantidad de ceros: ", ContadorCeros
+		Escribir "Cantidad de números positivos: ", ContadorCerosPositivos
+		Escribir "Cantidad de números negativos: ", ContadorCerosNegativos
+FinAlgoritmo
+
+
+7. Se requiere un algoritmo para determinar cuánto ahorrará en pesos una persona diariamente, y en un año, si ahorra 3¢ el primero de enero, 9¢ el dos de enero, 27¢ el 3 de enero y así sucesivamente todo el año. Represente la solución mediante pseudocódigo.
+
+R/= Peudocodigo:
+
+Algoritmo AHORRO
+	Definir AhorroDiario como real
+    Definir AhorroTotal como real
+    Definir dia como entero
+    AhorroDiario <- 0.03
+    AhorroTotal <- 0
+    dia <- 1
+    Mientras dia <= 365 Hacer
+        Mostrar "Día ", dia, ": ", AhorroDiario, " pesos"
+        AhorroTotal <- AhorroTotal + AhorroDiario
+        AhorroDiario <- AhorroDiario * 3
+        dia <- dia + 1
+    Fin Mientras
+    Mostrar "El total ahorrado en un año es: ", AhorroTotal, " pesos"
+FinAlgoritmo
+
+
+8. Realice el algoritmo para determinar cuánto pagará una persona que adquiere N artículos, los cuales están de promoción. Considere que si su precio es mayor o igual a $200 se le aplica un descuento de 15%, y si su precio es mayor a $100, pero menor a $200, el descuento es de
+12%; de lo contrario, solo se le aplica 10%. Se debe saber cuál es el costo y el descuento que tendrá cada uno de los artículos y finalmente cuánto se pagará por todos los artículos obtenidos. Represente la solución mediante pseudocódigo.
+
+R/= Pseudocodigo:
+
 
