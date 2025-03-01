@@ -243,21 +243,3 @@ Algoritmo Trigonometrica
     ESCRIBIR "La aproximación de Sen(", x, ") usando ", n, " términos es: ", SENX
 FinAlgoritmo
 
-Algoritmo Trigonometrica
-    ESCRIBIR "Ingrese el valor del ángulo en radianes: "
-    LEER x
-    ESCRIBIR "Ingrese la cantidad de términos a considerar en la serie: "
-    LEER n
-	SenX <- x  
-	Termino <- x  
-	Signo <- -1  
-    PARA i <- 1 HASTA n - 1 HACER
-        Exponente <- 2 * i + 1  
-	Termino <- (Termino * x * x) / ((Exponente - 1) * Exponente)  
-	SenX <- SenX + (Signo * Termino)  
-	Signo <- -Signo  
-    FIN PARA
-	ESCRIBIR "La aproximación de Sen(", x, ") usando ", n, " términos es: ", SENX
-     FinAlgoritmo
-
-
