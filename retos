@@ -178,4 +178,86 @@ FinAlgoritmo
 
 R/= Pseudocodigo:
 
+Algoritmo Compras
+    ESCRIBIR "Ingrese la cantidad de artículos a comprar: "
+    LEER N
+    TotalaPagar <- 0
+    PARA i <- 1 HASTA N HACER
+        ESCRIBIR "Ingrese el precio del artículo ", i, ": "
+        LEER Precio
+        SI Precio >= 200 ENTONCES
+            Descuento <- Precio * 0.15
+        SINO SI Precio >= 100 Y Precio < 200 ENTONCES
+	        Descuento <- Precio * 0.12
+	     SINO
+		Descuento <- Precio * 0.10
+       	     FIN SI
+	fin si
+	PrecioFinal <- Precio - DESCUENTO
+		TotalaPagar <- TotalaPagar + PrecioFinal
+		ESCRIBIR "Artículo ", i, ": Precio = ", Precio, ", Descuento = ", Descuento, ", Precio final = ", PrecioFinal
+		FIN PARA
+		ESCRIBIR "Total a pagar por todos los artículos: ", TotalaPagar
+FinAlgoritmo
+
+
+9. Realice un algoritmo y represéntelo mediante pseudocódigo para obtener una función exponencial, la cual está dada por:  
+    $𝑒^𝑥 = 1+\frac x {1!} + \frac {x^2}{2!}+ \frac {x^3}{3!}+ …$
+
+R/= Pseudocodigo
+
+Algoritmo Exponencial
+    ESCRIBIR "Ingrese el valor de x: "
+    LEER x
+    ESCRIBIR "Ingrese la cantidad de términos a considerar en la serie: "
+    LEER n
+    EX <- 1
+    Termino <- 1
+    PARA i <- 1 HASTA n - 1 HACER
+        Termino <- (Termino * x) / i
+        EX <- EX + Termino
+    FIN PARA
+    ESCRIBIR "La aproximación de e^", x, " usando ", n, " términos es: ", EX
+FinAlgoritmo
+
+
+10. Realice un algoritmo para obtener el seno de un ángulo y represéntelo mediante pseudocódigo. Utilice la siguiente ecuación:
+    $Sen x = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + ...$
+
+R/= Pseudocodigo
+
+Algoritmo Trigonometrica
+    ESCRIBIR "Ingrese el valor del ángulo en radianes: "
+    LEER x
+    ESCRIBIR "Ingrese la cantidad de términos a considerar en la serie: "
+    LEER n
+    SenX <- x  
+    Termino <- x  
+    Signo <- -1  
+    PARA i <- 1 HASTA n - 1 HACER
+        Exponente <- 2 * i + 1  
+        Termino <- (Termino * x * x) / ((Exponente - 1) * Exponente)  
+        SenX <- SenX + (Signo * Termino)  
+        Signo <- -Signo  
+    FIN PARA
+    ESCRIBIR "La aproximación de Sen(", x, ") usando ", n, " términos es: ", SENX
+FinAlgoritmo
+
+Algoritmo Trigonometrica
+    ESCRIBIR "Ingrese el valor del ángulo en radianes: "
+    LEER x
+    ESCRIBIR "Ingrese la cantidad de términos a considerar en la serie: "
+    LEER n
+	SenX <- x  
+	Termino <- x  
+	Signo <- -1  
+    PARA i <- 1 HASTA n - 1 HACER
+        Exponente <- 2 * i + 1  
+	Termino <- (Termino * x * x) / ((Exponente - 1) * Exponente)  
+	SenX <- SenX + (Signo * Termino)  
+	Signo <- -Signo  
+    FIN PARA
+	ESCRIBIR "La aproximación de Sen(", x, ") usando ", n, " términos es: ", SENX
+     FinAlgoritmo
+
 
