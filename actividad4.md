@@ -37,12 +37,19 @@ FIN
 2. **Secuencia**: Verifica que tu pseudocódigo siga el orden lógico (entrada → procesamiento → salida).
 
 R/= Algoritmo Resta
-    Escribir "Ingrese el primer número: "  
-    Leer num1  
-    Escribir "Ingrese el segundo número: "  
-    Leer num2  
-    resultado <- num1 - num2  
-    Escribir "El resultado de la resta es: ", resultado 
+
+    Escribir "Ingrese el primer número: "
+
+    Leer num1
+
+    Escribir "Ingrese el segundo número: "
+
+    Leer num2
+
+    resultado <- num1 - num2
+
+    Escribir "El resultado de la resta es: ", resultado
+
 FinAlgoritmo
 
 
@@ -157,16 +164,27 @@ int main() {
 > - Escribe tu propio pseudocódigo para calcular el promedio de una lista de calificaciones y tradúcelo a C.
 
 R/= Algoritmo Calificaciones
+
     Escribir "Ingrese la cantidad de calificaciones: "  
+
     Leer n  
+
     suma <- 0  
+
     Para i desde 1 hasta n hacer  
+
         Escribir "Ingrese la calificación ", i, ": "  
+
         Leer calificacion  
+
         suma <- suma + calificacion  
+
     Fin Para  
+
     promedio <- suma / n  
+
     Escribir "El promedio es: ", promedio 
+
 FinAlgoritmo
 
 LENGUAJE C: #include <stdio.h>
@@ -215,25 +233,39 @@ R/= Comentar el código es importante porque ayuda a entender qué hace cada par
 1. 
 R/= pseudocodigo:
 inicio
+
    Escribir "Ingresa los datos deseados para X1
+
 	definir X1 Como Entero
+
 	Definir X2 Como Entero
+
 	Definir Y1 Como Entero
+
 	Definir Y2 Como Entero
+
 	Leer X1
+
 	Escribir "Ingresa el dato deseado para X2
+
 	Leer X2
+
 	Escribir "Ingresa el dato deseado para Y1
+
 	Leer Y1
+
 	Escribir "Ingresa el dato deseado para Y2
+
 	Leer Y2
 	
 	diferencia_x = X2 - X1
+
     diferencia_y = Y2 - Y1
 	
     D = sqrt(diferencia_x^2 + diferencia_y^2)
 	
     Escribir "La distancia entre los dos puntos es:, D
+
 Fin
 
 Lenguaje en C: #include <stdio.h>
@@ -268,10 +300,15 @@ int main() {
 R/= Pseudocodigo: 
 
 Algoritmo pulgadas
+
 	Escribir "ingrese la cantidad de tela en metros"
+
 	Leer metros
+
 	pulgadas <- metros / 0.0254
+
 	Escribir "debe pedir", pulgadas, "pulgadas de tela"
+
 FinAlgoritmo
 
 Lenguaje en C:  #include <stdio.h>
@@ -293,12 +330,19 @@ int main() {
 R/= Pseudocodigo:
 
 Algoritmo TrianguloRectangulo
+
 	Escribir "ingrese el valor del cateto A"
+
 	Leer A
+
 	Escribir "ingrese el valor del cateto B"
+
 	leer B
+
 	C <- Rc(A^2+B^2)
+
 	Escribir "la hipotenusa es" C
+
 FinAlgoritmo
 
 Lenguaje en C: #include <stdio.h>
@@ -323,30 +367,53 @@ int main() {
 4. R/= Pseudocodigo:
 
 Algoritmo EdadActual
+
 		ESCRIBIR "Ingrese el día de nacimiento"
+
 		LEER diaNac
+
 		ESCRIBIR "Ingrese el mes de nacimiento"
+
 		LEER mesNac
+
 		ESCRIBIR "Ingrese el año de nacimiento"
+
 		LEER añoNac
+
 		ESCRIBIR "Ingrese el día actual"
+
 		LEER diaAct
+
 		ESCRIBIR "Ingrese el mes actual"
+
 		LEER mesAct
+
 		ESCRIBIR "Ingrese el año actual"
+
 		LEER añoAct
+
 		edad <- añoAct - añoNac
 
 		SI (mesAct < mesNac) O (mesAct = mesNac Y diaAct < diaNac) ENTONCES
+
 			edad <- edad - 1
+
 			ESCRIBIR "Aún no ha cumplido años este año."
+
 		SiNo
+
 			ESCRIBIR "Ya cumplió años este año."
+
 		FIN SI
+
 		SI (mesAct = mesNac Y diaAct = diaNac) ENTONCES
+
 			ESCRIBIR "Feliz Cumpleaños!"
+
 		FinSi
+
 		Imprimir "edad actual" edad
+
 FinAlgoritmo
 
 Lenguaje en C: #include <stdio.h>
@@ -395,25 +462,45 @@ int main() {
 5. R/= Pseudocodigo:
 
 Algoritmo SueldoSemanal
+
 	Escribir "Ingrese las horas trabajadas en la semana:"
+
     Leer horasTrabajadas
+
     Escribir "Ingrese el pago por hora:"
+
     Leer pagoPorHora
+
     Si horasTrabajadas > 50 Entonces
+
         Escribir "No está permitido trabajar más de 50 horas."
+
     Sino
+
         sueldo <- 0
+
 	FinSi
+
         Si horasTrabajadas <= 40 Entonces
+
             sueldo <- horasTrabajadas * pagoPorHora
+
         Sino Si horasTrabajadas <= 45 Entonces
+
 				sueldo <- (40 * pagoPorHora) + ((horasTrabajadas - 40) * (pagoPorHora * 2))
+
 			Sino Si horasTrabajadas <= 50 Entonces
+
 					sueldo <- (40 * pagoPorHora) + (5 * (pagoPorHora * 2)) + ((horasTrabajadas - 45) * (pagoPorHora * 3))
+
 				FinSi
+
 				Escribir "El sueldo semanal es: ", sueldo
+
 			FinSi
+
 	    FinSi
+
 FinAlgoritmo
 
 Lenguaje en C: #include <stdio.h>
